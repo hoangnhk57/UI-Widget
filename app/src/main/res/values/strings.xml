@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ClickableWidget</string>
+    <string name="red_label">Red</string>
+    <string name="yellow_label">Yellow</string>
+    <string name="blue_label">Blue</string>
+    <string name="no_red_label">Not Red</string>
+    <string name="no_blue_label">Not Blue</string>
+    <string name="no_yellow_label">Not Yellow</string>
+    <string name="label_button">Set Color Chose Above</string>
+</resources>
