@@ -9,29 +9,29 @@ import android.widget.TextView;
 import android.widget.ToggleButton;
 
 public class MainActivity extends AppCompatActivity {
-    TextView tv;
+    TextView mDisplay;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        tv = (TextView) findViewById(R.id.tv);
+        mDisplay = (TextView) findViewById(R.id.tv);
     }
 
     // Buton, ImageButon
     private void setColor(int color) {
-        tv.setBackgroundColor(color);
+        mDisplay.setBackgroundColor(color);
     }
 
-    public void bt_red(View clicked) {
+    public void clickChooseRed(View clicked) {
         setColor(Color.RED);
     }
 
-    public void bt_blue(View clicked) {
+    public void clickChooseBlue(View clicked) {
         setColor(Color.BLUE);
     }
 
-    public void bt_yellow(View clicked) {
+    public void clickChooseYellow(View clicked) {
         setColor(Color.YELLOW);
     }
 
@@ -45,15 +45,15 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void Toggle_bt_red(View toggle) {
+    public void clickToggleChooseRed(View toggle) {
         setColorToggle(toggle, Color.RED);
     }
 
-    public void Toggle_bt_blue(View toggle) {
+    public void clickToggleChooseBlue(View toggle) {
         setColorToggle(toggle, Color.BLUE);
     }
 
-    public void Toggle_bt_yellow(View toggle) {
+    public void clickToggleChooseYellow(View toggle) {
         setColorToggle(toggle, Color.YELLOW);
     }
 

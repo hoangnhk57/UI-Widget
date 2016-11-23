@@ -12,14 +12,14 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="bt_red"
+        android:onClick="clickChooseRed"
         android:src="@drawable/circle_red" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/ibt1"
-        android:onClick="bt_blue"
+        android:onClick="clickChooseBlue"
         android:src="@drawable/circle_blue" />
 </LinearLayout>
 
@@ -34,19 +34,19 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="bt_red"
+            android:onClick="clickChooseRed"
             android:text="@string/red_label" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="bt_yellow"
+            android:onClick="clickChooseYellow"
             android:text="@string/yellow_label" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="bt_blue"
+            android:onClick="clickChooseBlue"
             android:text="@string/blue_label" />
     </RadioGroup>
 
@@ -61,21 +61,21 @@
         <ToggleButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="Toggle_bt_red"
+            android:onClick="clickToggleChooseRed"
             android:textOff="@string/red_label"
             android:textOn="@string/no_red_label" />
 
         <ToggleButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="Toggle_bt_blue"
+            android:onClick="clickToggleChooseBlue"
             android:textOff="@string/blue_label"
             android:textOn="@string/no_blue_label" />
 
         <ToggleButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="Toggle_bt_yellow"
+            android:onClick="clickToggleChooseYellow"
             android:textOff="@string/yellow_label"
             android:textOn="@string/no_yellow_label" />
     </LinearLayout>
